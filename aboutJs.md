@@ -8,4 +8,7 @@
 2. Setup auto-update 🚀 for number of articles I will read daily from [daily.dev](https://daily.dev/) to my github account using Github Actions.
 ![Added devCard to github account]('../../devCard.png')
 
+- Created a new repo for the AJ90JS Challenge!
+1. I will document my progress for each section on a dedicated branch.
+
 - Learn README file markdowns from Ajay Yadav to write this content now as I will be using it to document my journey.  
