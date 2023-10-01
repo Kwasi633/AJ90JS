@@ -1,2 +1,5 @@
 # AJ90JS
-A 90-day JavaScript Coding Challenge
+## Day_1_to_5
+
+Basics of Javascript
+
