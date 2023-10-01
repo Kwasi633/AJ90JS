@@ -6,7 +6,6 @@
 - Creted a new account on daily.dev and read more Javascript resouces. I learnt a lot of useful skills from there today:
 1. Adding a devCard to my github profile.
 2. Setup auto-update 🚀 for number of articles I will read daily from [daily.dev](https://daily.dev/) to my github account using Github Actions.
-![Added devCard to github account]('../../devCard.png')
 
 - Created a new repo for the AJ90JS Challenge!
 1. I will document my progress for each section on a dedicated branch.
