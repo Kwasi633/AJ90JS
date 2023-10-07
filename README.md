@@ -1,5 +1,4 @@
 # AJ90JS
-## Day_1_to_5
+## Day_6_to_10
 
-Basics of Javascript
-
+Variables and Data Types
