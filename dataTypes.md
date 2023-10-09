@@ -20,7 +20,7 @@ It is used to hold a collection of values. Values can be of the same data type o
 
 **Null**
 
-Represents an intentional absence of any object value or a variable with no value.
+Represents an intentional absence of any object value or a variable without any value.
 
 **Symbol** (ES6)
 
