@@ -4,7 +4,7 @@ Day 8 Complete! 🚀
 
 **string**
 
-It represents a set of characters. Strings are enclosed in single(’ ‘) or double quotes(” “). eg *"Hello", 'New year'*
+It refers to a sequence of characters and they can be individual letter, numbers, whitespace or symbol. They are used to represent data relating to text. Strings are enclosed in single(’ ‘) or double quotes(” “). eg *"Hello", 'New year'*
 
 **number**
 
