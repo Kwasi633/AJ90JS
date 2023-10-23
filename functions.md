@@ -16,11 +16,32 @@ A function is a piece of code that we can reuse and over again in our code. Func
 
 A **regular function** is written by declaring the `function` keyword followed by a `function name`. `()` comes after the function name followed by `{}`
 
+**Calling the function** 
 
+To use a function we call the `function name` followed by `()`
 
-This provides a shorthand way of writing  **`if-else`** statements. The ternary operator takes three arguments and returns a value based on a condition.
+Anytime we call the function, the code inside the function block will be executed.
 
-****
-__switch__
+**Parameters and Arguments**
 
-The switch statement evaluates an expression and compares it to multiple values. It executes a block of code when it gets a strictly matched value. It is often used as an alternative to a series of if/else statements, especially when there are many conditions to check.
+- Parameters are variables that are initially undefined and dont hold any value. They are defined when the function is called and will hold the value placed inside of the function. A function can take multiple parameters.
+
+- Argument are the real value that are passed to parameters during a function call.
+
+return
+
+In JavaScript, the **`return`** statement is used inside a function to specify the value that the function should produce as its result.
+
+**ARROW FUNCTIONS**
+
+They are a new way of writing javascript functions intoduced in Javascript ES6. An arrow function is a function exprression that is shorter and easier to write. Arrow functions can be stored in a variable to be used later in the code.
+
+They are essential for one-liner functions when there is only one parameter involved and therefore the return keyword is not needed.
+
+Arrow functions with multiple statements require curly  { } braces and a return statement.
+
+Arrow functions can be used to define anonymous fuunctions which can be called immediately after declaration.(IIFE)
+
+**CALLBACK FUNCTIONS**
+
+This is when functions call other functions
