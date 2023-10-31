@@ -206,7 +206,6 @@ users.password = storePassword
 console.log(`
 Welcome to my app ${users.userName}
 `)
-*/
 
 let map = new Map();
 
@@ -214,3 +213,57 @@ map.set("fruit", "apple");
 map.set("color", "red");
 
 console.log(map)
+*/
+
+const storyBooks = [
+    {
+        title: "Alice in Wonderland",
+        chapters: 12,
+        words: 45000,
+        publicationYear: 1865,
+        ratings: {
+            fiveStars: 350,
+            fourStars: 120,
+            threeStars: 50
+        },
+        characters: [
+            "Alice",
+            "Mad Hatter",
+            "Queen of Hearts"
+        ]
+    },
+    {
+        title: "Harry Potter and the Sorcerer's Stone",
+        chapters: 17,
+        words: 76945,
+        publicationYear: 1997,
+        ratings: {
+            fiveStars: 1500,
+            fourStars: 500,
+            threeStars: 200
+        },
+        characters: [
+            "Harry Potter",
+            "Hermione Granger",
+            "Ron Weasley"
+        ]
+    },
+    {
+        title: "The Blue Army Chronicles",
+        chapters: 20,
+        words: 89000,
+        publicationYear: 2010,
+        ratings: {
+            fiveStars: 120,
+            fourStars: 80,
+            threeStars: 30
+        },
+        characters: [
+            "General Blue",
+            "Captain Red",
+            "Sorcerer Malice"
+        ]
+    }
+];
+
+console.log(storyBooks.map(x => 2023 - x.publicationYear))
