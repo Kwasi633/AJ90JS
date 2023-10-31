@@ -1,4 +1,4 @@
 # AJ90JS
-## Day_16_to_20
+## Day_28_to_30
 
-Functions
+Javascript OOP
