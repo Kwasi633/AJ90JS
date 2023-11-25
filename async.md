@@ -34,8 +34,9 @@ A promise is placeholder for the future result of an asynchronous operation. In 
 `fetch()` is an asynchrounous function that is used to retrieve data from an external source. The `fetch()` takes in the url of the the external source as argument. What the fetch function returns before moving to a new line is called a `Promise`
 
 ```js
-const request = fetch('https://restcountries.com/v3.1/name/ghana')
-console.log(request);
+fetch('https://restcountries.com/v3.1/name/ghana')
+.then(response => response.json())
+.then(console.log(request));
 
 console.log('Some Text').
 ```
