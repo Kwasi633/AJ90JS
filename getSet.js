@@ -1,6 +1,6 @@
 
 let student = {
-    _name: "Kofi Manu"//private property '_name'
+    _name: "Kofi Manu" //private property '_name'
 };
 
 // Define property 'name' on object student
@@ -17,7 +17,7 @@ Object.defineProperty(student, 'name', {
     }
 });
 
-student.name = "Ama Serwaa"
+student.name = "Ama Serwaa" //add prop through 'name'
 
 console.log(student)
 
@@ -37,4 +37,4 @@ let person = {
 };
 
 person.age = 25; 
-person.age = -5; 
+//person.age = -5; 
